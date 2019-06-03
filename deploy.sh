@@ -23,7 +23,7 @@
 set -e
 GITURL=`git config remote.origin.url`
 npm install
-node build.js
+npm run build
 cd build
 rm -rf .git/
 git init
